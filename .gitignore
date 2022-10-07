@@ -1,2 +1,3 @@
 *.json
 stream-to-pubsub-private.py
+Dockerfile-private
