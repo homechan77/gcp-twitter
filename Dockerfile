@@ -11,8 +11,8 @@ ADD . /app
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # 환경변수 설정
-ENV GOOGLE_APPLICATION_CREDENTIALS='/app/'
+ENV GOOGLE_APPLICATION_CREDENTIALS='/app/handy-station-364110-52ff958d11ea.json'
 
 # 컨테이너 실행시 명령어 실행
-# CMD ["python", "stream-to-pubsub-private"]
-CMD python3 stream-to-pubsub-private.py --bearer_token " " --stream_rule 'data' --project_id "handy-station-364110" --topic_id "tweets"
+# CMD ["python", "stream-to-pubsub"]
+CMD python3 stream-to-pubsub.py --bearer_token "-private-" --stream_rule 'data' --project_id "handy-station-364110" --topic_id "tweets"

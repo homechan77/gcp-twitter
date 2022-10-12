@@ -62,7 +62,9 @@ if __name__ == "__main__":
     streaming_client = Client(args.bearer_token, args.stream_rule)
     
     # @ export GOOGLE_APPLICATION_CREDENTIALS="/home/ko/workspace/gcptwitter/handy-station-364110-52ff958d11ea.json"
-    key_path = "/home/ko/workspace/gcptwitter/handy-station-364110-52ff958d11ea.json" 
+    # key_path = "/home/ko/workspace/gcptwitter/handy-station-364110-52ff958d11ea.json" 
+    key_path = "./handy-station-364110-52ff958d11ea.json" 
+
     credentials = service_account.Credentials.from_service_account_file(
         key_path,
         scopes=["https://www.googleapis.com/auth/cloud-platform"] # Client가 Resource Server로부터 인가받을 권한의 범위
