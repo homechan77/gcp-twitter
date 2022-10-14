@@ -6,7 +6,7 @@
 
 > [*https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=187*](https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=187)  
 
-- ***Twitter API v2로 업데이트된 코드들로 진행***
+💡 ***Twitter API v2로 업데이트된 코드들로 진행***
 
 <img src=./images/img0.png width="500" height="300"/>
 
