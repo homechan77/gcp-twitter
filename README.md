@@ -8,13 +8,13 @@
 
 - ***Twitter API v2로 업데이트된 코드들로 진행***
 
-<img src=./images/Screenshot_from_2022-09-28_15-52-46.png width="500" height="300"/>
+<img src=./images/img0.png width="500" height="300"/>
 
 - **GCP(Google Cloud Platform)**
     - 서비스 개요
         
-        <img src=./images/img.png width="400" height="200"/>
-        <img src=./images/img1.daumcdn.png width="400" height="200"/>
+        <img src=./images/img1.png width="400" height="200"/>
+        <img src=./images/img2.png width="400" height="200"/>
         
     - *Google Cloud Functions은 무엇인가?*
         - 서버리스 아키텍처를 구현하기 위한 구글 클라우드 서비스<br/> 
@@ -60,6 +60,7 @@
         - `response.data`는 해당 tweet의 text를 출력하고 `response.data.data`는 그 text와 함께 우리가 지정한 tweet_field를 포함한 값들을 보여준다.
         - `response.data.data`의 객체를 write_to_pubsub() 메소드에 보내 json으로 변형시키고 pub/sub으로 write한다.
         - tweepy v2의 변화점으로 필터 규칙을 설정해 주어야 하는데, 이 규칙들은 엔드포인트에 “적체되어서” 남아 있게된다. 따라서 새로운 규칙들을 필터링 하기 위해서는 기존 규칙의 id를 파악(`get_rules().data`)하여 모두 지우어야 한다.(혹은 필요하지 않은 규칙들을)
+
 3. **Cloud Functions에서 Pub/Sub 트리거에 의한 Pub/Sub 메시지를 응답하여 함수를 호출, BIgQuery로 이동**
     - BigQuery 내 dataset(’tweet_data’)과 table(’tweets’) 생성
     - table(’tweet’) 스키마 필드와 유형을 다음과 같이 설정
@@ -69,8 +70,8 @@
             > 참고) Tweet Stream Datetime values info [https://developer.twitter.com/en/docs/twitter-ads-api/timezones](https://developer.twitter.com/en/docs/twitter-ads-api/timezones)
             > 
             
-            <img src=./images/Screenshot_from_2022-10-07_21-17-45.png width="400" height="200"/>
-            <img src=./images/Screenshot_from_2022-10-07_21-19-02.png width="400" height="200"/>
+            <img src=./images/img3.png width="400" height="200"/>
+            <img src=./images/img4.png width="400" height="200"/>
             
 4. **DataStudio에서 BigQuery 테이블을 불러와 시각화**
     - 💡 ***시각화 결과물 보기***<br/>
