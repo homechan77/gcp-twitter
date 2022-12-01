@@ -1,10 +1,8 @@
 ## GCP 기반 트위터 스트리밍 데이터 엔지니어링
-
-:ballot_box_with_check:	***[(Notion_link)-"GCP 기반 트위터 스트리밍 데이터 엔지니어링"](https://chan77.notion.site/GCP-5fb083cae81a4c8d8fab5f200f93c940)***
+[<img src="https://www.cloudwards.net/wp-content/uploads/2021/02/Notion-logo.png" width="130">](https://www.notion.so/seongchanko/GCP-5fb083cae81a4c8d8fab5f200f93c940)
 
 💡 ***TAcademy_데이터 엔지니어링 기초 강의를 통한 실습 진행***  
-
-> [:link:*https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=187*](https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=187)  
+[<img src="https://www.skplanet.com/upload/editor/images/000002/20190305155558351_5QV02II7.png" width="130">](https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=187)
 
 💡 ***Twitter API v2로 업데이트된 코드들로 진행***
 
