@@ -1,12 +1,11 @@
 ## GCP 기반 트위터 스트리밍 데이터 엔지니어링
-[<img src="https://www.cloudwards.net/wp-content/uploads/2021/02/Notion-logo.png" width="130">](https://www.notion.so/seongchanko/GCP-5fb083cae81a4c8d8fab5f200f93c940)
-
-💡 ***TAcademy_데이터 엔지니어링 기초 강의를 통한 실습 진행***  
-[<img src="https://www.skplanet.com/upload/editor/images/000002/20190305155558351_5QV02II7.png" width="130">](https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=187)
-
-💡 ***Twitter API v2로 업데이트된 코드들로 진행***
-
-<img src=./images/img0.png width="500" height="300"/>
+### <a href="https://www.notion.so/seongchanko/GCP-5fb083cae81a4c8d8fab5f200f93c940"><img src="https://img.shields.io/badge/Notion Link--gcp twitter-000000?logo=Notion&style=for-the-badge"/></a> <br>
+### 💡 ***TAcademy_데이터 엔지니어링 기초 강의를 통한 실습 진행*** <br>
+<a href="https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=187"><img src="https://img.shields.io/badge/Tacademy-데이터 엔지니어링 기초-e51937?style=for-the-badge"/></a> <br>
+### 💡 ***Twitter API v2로 업데이트된 코드들로 진행*** <br>
+<a href="https://developer.twitter.com/en/docs/twitter-api
+"><img src="https://img.shields.io/badge/Twitter Developer Platform-twitter--api--v2-1DA1F2?logo=Twitter&style=for-the-badge"/></a> <br>
+<hr>
 
 - **GCP(Google Cloud Platform)**
     - 서비스 개요
